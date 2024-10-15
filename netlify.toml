@@ -1,0 +1,9 @@
+## netlify.toml
+
+[build]
+  publish = "out"
+  command = "yarn build"
+
+[build.environment]
+  NODE_VERSION = "22.2.0"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
